@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+:root {
+    --primary-color: #66FCF1;
+    --secondary-color: #C5C6C7;
+}
+
+/* Reset and Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Calculate font size for each device based on width and font size guidelines */
+    font-size: calc(15px + 0.390625vw);
+}
+
+body {
+    animation: changingBackground 15s ease-in-out infinite;
+}
+
+/* Movie Collection Web App */
+.app-container {
+    margin: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    border: 1rem;
+    margin: 1vh 1vw;
+}
+
+table {
+    border: 1rem;
+}
+
+tr {
+    margin: 1vh 1vw;
+}
+
+td {
+    margin: .5vh .5vw;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color);
+    margin: 5vh 5vw;
+}
+
+h4 {
+    margin: 1vh 1vw;
+    color: var(--secondary-color);
+}
+
+label {
+    font-size: large;
+    color: var(--secondary-color);
+}
+
+input {
+    font-size: large;
+    border: 1rem;
+    margin: 1vh 1vw;
+    background: none;
+    color: var(--secondary-color);
+}
+
+a {
+    font-size: large;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+input:hover {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+@keyframes changingBackground {
+    0% { /* Start */
+        background-color: #1F2833;
+    }
+
+    25% {
+        background-color: #1C3334;
+    }
+
+    50% {
+        background-color: #0B0C10;
+    }
+
+    75% {
+        background-color: #0C0032;
+    }
+
+    100% { /* End */
+        background-color: #1F2833;
+    }
+}

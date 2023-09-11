@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="styles/great-movies-collection-styles.css" rel="stylesheet">
+    <title>Great Movies Collection</title>
+</head>
+<body>
+<h1>Great Movies Collection - Add Movie</h1>
+<div class="app-container">
+    <form action="add-movie" method="post" name="addForm">
+        <label>
+            Movie title:
+            <input minlength="1" name="title" type="text"/>
+        </label>
+
+        <label>
+            Movie revenue:
+            <input minlength="1" name="revenue" type="number"/>
+        </label>
+
+        <input name="submit" type="submit" value="Add"/>
+        <input name="reset" type="reset" value="Reset"/>
+    </form>
+</div>
+</body>
+</html>
