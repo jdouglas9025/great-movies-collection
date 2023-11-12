@@ -8,13 +8,13 @@ HTML, CSS, Java SE, Jakarta EE, and SQL
 Landing Page:
 ![LandingPage](https://github.com/jdouglas9025/great-movies-collection/blob/master/demo-screenshots/LandingPage.png?raw=true)
 
-Filter By Revenue (filtered by Avatar 2's fictional revenue of 3000)
+Filter By Revenue (filtered by Avatar 2's fictional revenue of 3000):
 ![FilterByRevenue](https://github.com/jdouglas9025/great-movies-collection/blob/master/demo-screenshots/FilterByRevenue.png?raw=true)
 
-Update Revenue Form (original data for the selected movie is provided as default values in the form)
+Update Revenue Form (original data for the selected movie is provided as default values in the form):
 ![UpdateRevenueForm](https://github.com/jdouglas9025/great-movies-collection/blob/master/demo-screenshots/UpdateRevenueForm.png?raw=true)
 
-Update Revenue (updated Titanic's revenue from 2000 to 2500)
+Update Revenue (updated Titanic's revenue from 2000 to 2500):
 ![UpdateRevenue](https://github.com/jdouglas9025/great-movies-collection/blob/master/demo-screenshots/UpdateRevenue.png?raw=true)
 
 Delete Movie (deleted Titanic):
