@@ -1,6 +1,13 @@
 # Great Movies Collection
 Great Movies Collection is a fictional movie library app featuring some of the greatest films of all time. It allows users to add new movies, update/delete existing movies, and filter movies by a certain revenue. This is a full stack web app built using HTML, CSS, Jakarta EE, Java SE, and SQL (database used for development/testing was MySQL).
 
+## Key Highlights
+•	Implemented a full stack web app using HTML, CSS, Java, Jakarta EE, and SQL
+
+•	Deployed the app locally using Glassfish and MySQL
+
+•	Allowed users to perform CRUD operations on a fictional list of the greatest movies of all time
+
 ## Technologies
 HTML, CSS, Java SE, Jakarta EE, and SQL
 
